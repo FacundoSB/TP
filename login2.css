@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.registro {
+    width: 400px;
+    background: #302b63;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 13px 37px 12px black;
+}
+.registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.box {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.registro a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.boton {
+    width: 100%;
+    background-color: #302b63(221, 191, 220);
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
